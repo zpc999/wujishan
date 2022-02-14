@@ -1,0 +1,34 @@
+#+hugo_base_dir: ..
+#+author: 无机山人
+* My first post                                             :tag1:@category1:
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:EXPORT_TITLE: "第一弹试验成功"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: <2022-02-12 Sat>
+:EXPORT_OPTIONS: num:nil toc:nil
+:EXPORT_RESOURCES+: :image images/feature1/markdown.png
+:END:
+
+#+begin_description
+怎样写文章。
+#+end_description
+
+
+
+Okay......This is my post body.
+
+** this is a subsection
+Say something here
+*** more headings here
+blabla
+
+
+
+
+
+* Footnotes
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
