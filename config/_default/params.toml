@@ -61,13 +61,13 @@ typeIcon = "🎯"
 
 # whoami
 myname = "无机山人"
-email = "zpc999@gmail.com"
+email = ""
 whoami = "独钓寒江"
 bioImageUrl = ""
 useGravatar = false
 location = "New York, USA"
 organization = "无机山"
-link = "https://zpc999.github.io"
+link = "https://wu-ji-shan.github.io"
 
 # sidebar
 enableBio = true
