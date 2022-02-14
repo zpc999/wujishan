@@ -1,3 +1,6 @@
 [submodule "themes/Zzo"]
 	path = themes/Zzo
 	url = https://github.com/zpc999/hugo-theme-zzo.git
+[submodule "public"]
+	path = public
+	url = https://github.com/wu-ji-shan/wu-ji-shan.github.io.git
