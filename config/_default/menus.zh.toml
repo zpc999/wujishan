@@ -1,0 +1,51 @@
+[[main]]
+  identifier = "about"
+  name = "关于"
+  url = "about"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "存档"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "presentation"
+  name = "展示"
+  url = "presentation"
+  weight = 3
+
+[[main]]
+  identifier = "gallery"
+  name = "图片集"
+  url = "gallery"
+  weight = 4
+    
+[[main]]
+  parent = "gallery"
+  name = "卡通"
+  url = "gallery/cartoon"
+
+[[main]]
+  parent = "gallery"
+  name = "相集"
+  url = "gallery/photo"
+
+[[main]]
+  identifier = "文集"
+  name = "文集"
+  url = "posts"
+  weight = 5
+
+[[main]]
+  identifier = "showcase"
+  name = "窗口"
+  url = "showcase"
+  weight = 6
+
+[[main]]
+  identifier = "publication"
+  name = "论文"
+  url = "publication"
+  weight = 7

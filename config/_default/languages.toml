@@ -1,0 +1,14 @@
+[zh]
+  title = "无机山"
+  languageName = "中文"
+  weight = 1
+  languagedir = "ltr"
+  contentdir = "content/zh"
+
+[en]
+  title = "Hugo Zzo Theme"
+  languageName = "English"
+  weight = 3
+  languagedir = "ltr"
+  contentdir = "content/en"
+
