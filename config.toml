@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = '无机山里好参禅'
+theme = "Zzo"
+
+[markup.goldmark.renderer]
+  unsafe = true
