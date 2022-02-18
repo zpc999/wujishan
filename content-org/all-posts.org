@@ -1,4 +1,6 @@
 #+hugo_base_dir: ..
+#+macro: youtube @@html:<div class="org-youtube"><iframe src="https://www.youtube-nocookie.com/embed/$1" allowfullscreen title="YouTube Video"></iframe></div>@@
+#+macro: tooltip @@html:<div class="tooltip">$1<span class="tooltiptext">$2</span></div>@@
 #+author: 无机山人
 * My first post                                             :github:建网站:@信息技术:
 :PROPERTIES:
@@ -38,7 +40,275 @@ git branch -M main
 
 由于某种不明朗的原因，其实并不工作，推送的时候，git一直耗在那里，让人等待半个小时都没有回馈。我绕过这个问题的办法很土，花了不少时间，就是一个一个文件夹地add, commit and push。花了不少时间，但是最后还是工作了。
 
+* 永嘉大师证道歌                                           :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-15T15:22
+:EXPORT_TITLE: "永嘉大师证道歌"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: <2022-02-15 Tue 15:22>
+:EXPORT_OPTIONS: num:nil toc:nil
+:END:
 
+#+begin_description
+永嘉大师证道歌，为世人所熟悉。大正藏里面收集四篇注释，今一并请出，共同学习。
+#+end_description
+
+有四种注释，现在和并在一起，比较对照，加深印象。今后每天会有一段文字，节录这些注释。我从开始学佛就接触到永嘉证道歌，当时还希望自己能够背诵。当时学习心中心法门，大愚法师一生并没有留下什么文字，就只有一首解脱歌，按照永嘉证道歌的形式，一起和颂。后面我会把解脱歌也一起贴出来。
+
+** 舒州梵天琪和尚注证道歌序
+
+#+begin_quote
+　　永嘉真觉大师者。乃祖席之英人也。法讳玄觉。少而落彩。聦敏颇异。始者习天台智者教观。即左溪同时也。于是遍历讲肆参寻知识。忽一日因览涅槃大经洞明法旨。即往曹溪。六祖印可。祖叹其深证。即时遽然告归。祖少留一宿。故号为一宿觉焉。则以所证法门发言为歌。以警未悟。师复预期冥感。即时定中观见字字化作金色满虚空界。自后天下丛林无不知也。诸方老人或注或颂。以至梵僧传皈印土翻译受持。若非深契佛心。其孰能与于此哉。彦琪山居暇日因学者所问。故乐为其说。许彼所录。录成直叙大略。题于卷首。
+
+　　时绍圣丁丑仲夏十八日列岫轩书
+
+#+end_quote
+
+** 南明泉颂永嘉证道歌序
+
+#+begin_quote
+　　我闻。如来善护念诸菩萨以心。善付嘱诸菩萨以法。心之所示。言所不能该。法之所传。意所不能尽。即言即意。皆诸妄想。离言意者。亦复如是。不即不离。种种平等。不堕于无。不丽于有。言意两忘。而心法得矣。夫法本无为。对境而立。心非有相。随物而现。故前际不来。后际不去。其于今也。如转轮。如流水。不流不转。而亦不住。不住则无在也。无在而无不在。是真常住者也。而昧者不知。乃以色见如来。以音声求如来。岂不谬哉。永嘉禅师证道歌。其深于道矣。然道无所事于证也。而永嘉方且哓哓。而与世俗辩者。彼岂累于言意为哉。惟如来不厌世间。而入涅槃。不去文字。而住解脱。不断烦恼。而流出一切真如菩提。永嘉盖得诸此而已。南明禅师泉公。昔居千顷。复颂证道歌。成三百二十篇。呜呼。发如来大智慧海。使人皆得望其涯涘。而溯其流。不绝诸念。不着诸相。不外诸因缘。普以吾觉。悦可众心。何其盛哉。观其颂。而吾无能惜其狂言。故为之序云。
+
+　　时熙宁十年丁巳七月　括苍　吴庸天用　序
+
+#+end_quote
+
+** 苏州灵岩妙空佛海和尚注证道歌序
+
+#+begin_quote
+　　余尝览吾家。渔猎文字语言极多。而腾耀古今。脍炙人口者亦少。至于永嘉着歌以证道。悭于二千言。往往乳儿灶妇。亦能钻仰此道。争诵遗章断稿。况在士夫衲子。蚁慕云骈。不待云后谕。由是观之。莫非宿植德本。行解相应。虽借舌端三昧。游戏人间世。而脱身向佛祖外行履。学者穷讨其源。大似持螺酌海。执管窥天。信夫。西土谓之证道经。名不诬矣。余每念此一段佛事。挂之牙颊间。虽至造次。未能忘。群才辈。枯禅外。单闻浅识。抠衣问难。遂延及此。岂意小师德最。从余之久。日就月将。编以成集。一日出示。求序于余。将授诸来者。余为之骇然。良久。诘曰。一藏半藏。皆为切脚。以字八字。翻成名邈。达磨面壁不言。如来无法可说。昔永嘉。已是剜肉作疮。讵可于疮瘢上。更加针芥耶。子无乃贩卖葛藤。累我乎。答曰。痛念佛法。危如累卵。前辈凋谢。后生无闻。有愧丁宁提耳之勤。如师所言。皆大根上智。一闻千悟。不待鞭影而行者。所能领解。然钝根末学。必假筌蹄。师既无言。小子何述焉。如是累番推卸。无何拟蛇画足。为虎插翅。谩以第二机示之。坐间适有梅知县者。栖神内典。念兹在兹。一见斯文。感悟流涕。出金缕板。庶几他日。𢹂手同游华严胜会。亦岂小补哉。因点笔为之引。
+
+　　旹绍兴丙寅住灵岩　去一叟　知讷　序
+#+end_quote
+
+** 竺原禅师注证道歌序
+
+#+begin_quote
+　　神光见达磨。三拜起立付以衣法。真觉参曹溪。绕床振锡而定宗旨。盍心法之精微非言所及。后来诸祖行棒行喝。辊毬作舞。打鼓振铎。以大机大用发扬为己为人之妙。而所谓东土有大乘根器传佛心宗者。正谓是也。惟大乘菩萨能为己为人。独觉．声闻则不能之。是知吾宗授受岂细事哉。近时丛林不古。或少有见解而无真履实践。失其体也。或有静工而不能提唱纲要以利生接物。失其用也。若体用兼资行解俱备。江淮之间惟竺源禅师而已。师蚤遍参名宿。佛祖教典无不探赜。而卓然以己躬大事为任。末见无能教公。机语契合遂嗣其法。两住鄱之妙果寺。倦于涉世。谢归南巢。海内学者大至。室无所容。有以真觉证道歌请注。师随问析之。学者笔录成帙。姑熟陈善会愿刻诸梓以惠来学。而徴序于予。予谓理之悟则一。事之修则无穷。故华严四法界终之以事事无碍者。谓其不舍一法而无一物不得其当也。真觉始由教观修行。如人之治田园居室既富。且有特契券未之明允。及见六祖。犹持券入官一印印定。永保家业。与马祖．百丈．黄檗．临济．南阳．大珠如契经说法。莫不由斯。而雏道人乌足语此哉。吾又闻无能公益通经教儒老百家。而师则辩博过之。故其发挥真觉之蕴特应酬余事耳。若夫室中徴诘机迅雷电。揭示衲僧向上巴鼻。当逢作者别为拈出。
+
+　　至元六年庚辰岁秋八月龙翔比丘(大欣)拜书
+#+end_quote
+
+* 证道歌                                                   :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-16T15:29
+:EXPORT_TITLE: "证道歌"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: <2022-02-16 Wed 15:29>
+:EXPORT_OPTIONS: num:nil toc:nil
+:END:
+
+#+begin_description
+解释证道歌题目。佛海和尚和竺源禅师没有注释题目。
+#+end_description
+
+
+** 舒州梵天琪和尚注证道歌
+#+begin_quote
+　　证道歌。
+
+　　从缘悟入之谓证。千圣履践之谓道。吟咏其道之谓歌。故曰证道歌也。或人云。无修无证者。乃诸散圣助佛扬化。已于往昔证道不复更证。譬如出矿黄金无复为矿。即宝公．万回．寒山．拾得．嵩头陀．傅大士等是也。即有所证。须求师印可。方自得名为证。自威音王佛已前即可。自威音王佛已后。无师自悟尽属天然外道。是故二十五大士所证圆通从佛印证。善财参五十三位知识从知识印证。乃至西天此土诸位祖师递相印证。所谓佛佛授手祖祖相传也。大师因看涅柈大经悟入。往曹溪。六祖印可。师到日。值祖坐次。绕禅床三匝。振锡一下。卓然而立。祖曰。夫沙门者。具三千威仪。八万细行。行行无亏。大德从何方来。生大我慢。师曰。生死事大。无常迅速。祖曰。何不体取无生。了无速乎。师曰。体即无生。了本无速。祖曰。如是如是。须臾礼辞。祖曰返太速乎。师曰。本非动静。岂有速耶。祖曰谁知非动。师曰仁者自生分别。祖曰汝甚得无生意也。师曰无生岂有意。祖曰。若无意。谁生分别。师曰分别亦非意。祖叹曰善哉善哉。既蒙印可。方得名为证也。实非诸位小乘天魔外道。未得谓得未证谓证。古德云。世间文字法师。暗证禅人。为佛法大患。诚可哀哉。今所证者则异于是。既即无生法忍也。此之大定。具足众法。一正宗非异证。二圆契非空证。三究竟不异证。四设利下济证。五道由法尔证。六了义非偏证。故得名为证也。然虽如是。犹涉义路分别。譬如有人捻空为线。欲其成就。徒废精神。若是本分衲僧脑后眼开。当自知矣。
+
+#+end_quote
+
+** 南明泉颂永嘉证道歌
+#+begin_quote
+　　证道歌。
+
+　　歌此曲。涅槃会上曾亲嘱。金色头陀笑不休。数朵青山对茅屋。
+#+end_quote
+** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+今日缺。
+#+end_quote
+** 竺原禅师注证道歌
+#+begin_quote
+今日缺。
+#+end_quote
+
+* 君不见。                                                 :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-17T12:18
+:EXPORT_TITLE: "君不见。"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-17T12:18:06-0500
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :key1 '(elem11 elem12)
+:END:
+
+#+begin_description
+君不见，第一弹。永嘉禅师歌一曲。绿水青山喜相看。
+#+end_description
+
+** 舒州梵天琪和尚注证道歌
+#+begin_quote
+　　君不见[fn::且信一半]。
+
+　　君之一字。指决之辞。于斯荐得。总持门开。亲见祖师本来面目。百千三昧无量妙义皆从此入。所以善财参见众艺童子言。我常唱此字母。入般若波罗蜜门。则知一字法门海墨书而不尽也。于此不明。设使辞同炙㷄辩泻悬河。翻被文字语言流浪无有了时。日来月往翰墨云兴。岁久时长编卷山积。究怀永叹惘怫长嗟。心地法门远之远矣。古德云。学道先须有悟由。还如曾斗快龙舟。虽然旧阁闲田地。一度赢来方始休。以此而推。须有发明悟入始得。故云。最初一句。同道方知。
+#+end_quote
+
+** 南明泉颂永嘉证道歌
+#+begin_quote
+　　君不见。
+
+　　是何颜。拟议思量隔乱山。从此曹磎门外句。依前流落向人间。
+#+end_quote
+
+** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+　　君。[fn::君臣有道，天下太平]
+
+　　一字法门。私按陀罗尼经云。无有一切诸法。是名一字法门。见宗镜录二。二十三纸也。
+
+　　不见。
+
+　　超声越色。离见绝闻也。如云见见之时。见非是见。见犹离见。见不能及。且道不见。毕竟不见个什么。
+
+#+end_quote
+
+** 竺原禅师注证道歌
+#+begin_quote
+　君不见(最初一着觌面相呈[fn::劫初之前]。又云甚处去也[fn::终是不圆])。
+#+end_quote
+
+
+* 绝学无为闲道人                                           :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-18T06:33
+:EXPORT_TITLE: "绝学无为闲道人"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-18T06:33:41-0500
+:END:
+
+#+begin_description
+若起精进心。是妄非精进。心若不起妄。精进无有涯。
+#+end_description
+
+
+*** 舒州梵天琪和尚注证道歌
+#+begin_quote
+　　绝学无为闲道人。
+
+　　绝学者。绝世间之学。学无为之学也[fn::一得一失]。世间之学非出离故也。无为学者。非小乘有为。入大乘无为也。小乘有为非究竟也。学般若菩萨与法冥合。于一切法应无所住[fn::吹起耳边风]。心无挂碍。得大自在。作而无作。为而无为。故云绝学无为也。闲道人者。与道相应。不与尘劳拘系[fn::自投罗网]。故名为闲。良由一切众生从无始来以至今日。背觉合尘[fn::阿谁令致]。于诸前境念念之中。随逐诸尘无有暂舍[fn::性自劳虑]。何由出离。学道之人能转万物[fn::还落窠臼]。不为万物所转[fn::犹较些子]。目前千差心闲一境。水边林下长养圣胎。看月色以逍遥。听泉声而自在。故云绝学无为闲道人也。
+#+end_quote
+
+*** 南明泉颂永嘉证道歌
+#+begin_quote
+　　绝学无为闲道人。
+
+　　云踪鹤态何依托。春深幽鸟不归来[fn::西出阳关无故人]。嵓畔群花自开落[fn::满地残红]。
+
+#+end_quote
+
+*** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+　　绝学无为闲道人[fn::轻松自在]。
+
+　　有无不学。至于无学。谓之绝学[fn::何必安名]。终日为。而未尝为。谓之无为[fn::切莫计较]。行住坐卧[fn::不为所碍]。透脱情尘。名闲道人[fn::谁与商量]。
+
+#+end_quote
+
+*** 竺原禅师注证道歌
+#+begin_quote
+绝学无为闲道人(元来只在者里[fn::将谓有什么奇特])。
+#+end_quote
+
+
+
+* 自己定义shortcode                                     :shortcode:@信息技术:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-18T10:10
+:EXPORT_TITLE: "自己定义shortcode"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-18T10:10:31-0500
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :key1 '(elem11 elem12)
+:END:
+
+#+begin_description
+Shortcode就是一个template，可以通过orgmode的macro来实现，不过必须增加相应的css才行。
+#+end_description
+
+我想增加一个功能，就是实现tooltip，希望通过shortcode在这个系统中实现。大致上是这样实现的：第一在orgmode中定义一个macro，然后调用这个macro来布置所需要的html代码；第二步定义以上html代码中用到的css。
+因此，我在org文件中定义了如下的macro：
+
+#+begin_src org
+#+macro: tooltip @@html:<div class="tooltip">$1<span class="tooltiptext">$2</span></div>@@
+#+end_src
+
+这里面用到的两个classes：tooltip和tooltiptex需要定义在css文件中。
+
+在网上搜索后，将如下的css定义放在static目录下面的tooltip.css文件中
+
+#+begin_example
+/*
+Tooltip style - copied from https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip
+*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#+end_example
+
+并在Param.toml文件中加入下面一行：
+#+begin_example
+custom_css = ["css/tooltip.css"]
+#+end_example
+
+最后，还需要告诉~hugo~把这个css文件加入html的head里面。
+
+#+begin_example
+themes/Zzo/layouts/partials/head/styles.html
+
+{{ $main_options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+{{ $main_template := resources.Get "sass/main.scss" }}
+{{ $main_style := $main_template | resources.ExecuteAsTemplate "main_parsed.scss" . | toCSS $main_options | resources.Minify }}
+<link rel="stylesheet" href="{{ $main_style.RelPermalink }}">
+
+{{ if .Site.Params.custom_css }}
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+{{ end }}
+
+{{ if .Site.Params.custom_scss }}
+{{ range .Site.Params.custom_scss }}
+  {{ $custom_template := resources.Get . }}
+  {{ if $custom_template }}
+    {{ $custom_style := $custom_template | resources.ToCSS | resources.Minify }}
+    <link rel="stylesheet" href="{{ $custom_style.RelPermalink }}">
+  {{ end }}
+{{ end }}
+{{ end }}
+#+end_example
+
+如此这样，应该工作了。不过，由于一些细小的原因，目前我的设置还没有完全工作。今后总有一天会找出原因，现在不想花大量时间去解决它。[fn::问题已经解决，原因是custom_css用的是absURL，应该都用relURL链接。为什么会出这个问题，我估计跟host site的服务器有关，具体原因不得而知，但是现在工作了，如下面的term和definition展示]。点击下面的term，会出现definition。
+
+{{{tooltip(term,definition)}}}
+
+Org使用macro的方式是：
+#+begin_src org
+{{{tooltip(term,definition)}}}
+#+end_src
 
 
 

@@ -1,7 +1,7 @@
 logoText = "无机山"
 logoType = "short" # long, short
 description = "无机山里好参禅！"
-custom_css = []
+custom_css = ["css/tooltip.css"]
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
@@ -164,7 +164,7 @@ commento = false
   email = "mailto:zpc999@gmail.com"
   phone = ""
   facebook = "http://example.org/"
-  twitter = "http://example.org/"
+  twitter = "http://twitter.com/zpc999"
   github = "https://github.com/zpc999/wujishan"
   stack-overflow = ""
   instagram = ""
