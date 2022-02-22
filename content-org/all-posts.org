@@ -1,6 +1,9 @@
 #+hugo_base_dir: ..
 #+macro: youtube @@html:<div class="org-youtube"><iframe src="https://www.youtube-nocookie.com/embed/$1" allowfullscreen title="YouTube Video"></iframe></div>@@
 #+macro: tooltip @@html:<div class="tooltip">$1<span class="tooltiptext">$2</span></div>@@
+#+macro: zframe @@html:<p><a href=$2>$1</a></p><iframe src=$2  height="700" width="100%" title=$1></iframe>@@
+#+macro: tframe @@html:<p><a href=$2 target=$3>$1</a></p><iframe src=$2 name=$3 height="700" width="100%" title=$1></iframe>@@
+#+macro: macrolink @@html:<p><a href=$2>$1</a></p>@@
 #+author: 无机山人
 * My first post                                             :github:建网站:@信息技术:
 :PROPERTIES:
@@ -170,7 +173,6 @@ git branch -M main
 　君不见(最初一着觌面相呈[fn::劫初之前]。又云甚处去也[fn::终是不圆])。
 #+end_quote
 
-
 * 绝学无为闲道人                                           :永嘉证道歌:@禅宗:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-02-18T06:33
@@ -211,7 +213,6 @@ git branch -M main
 #+begin_quote
 绝学无为闲道人(元来只在者里[fn::将谓有什么奇特])。
 #+end_quote
-
 
 
 * 自己定义shortcode                                     :shortcode:@信息技术:
@@ -309,6 +310,212 @@ Org使用macro的方式是：
 #+begin_src org
 {{{tooltip(term,definition)}}}
 #+end_src
+
+
+
+
+* 不除妄想不求真                                           :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-19T07:15
+:EXPORT_TITLE: "不除妄想不求真"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-19T07:15:05-0500
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :key1 '(elem11 elem12)
+:END:
+
+#+begin_description
+人人都要除妄想，要求真。为什么永嘉却道：不除妄想不求真？
+#+end_description
+
+
+** 舒州梵天琪和尚注证道歌
+#+begin_quote
+
+　　{{{tooltip(不除妄想不求真,懒人好修道)}}}。
+
+　　所言妄想者即虚妄想念也。良由一切众生十二时中攀缘之心无有间断。心如念水之龟。意似迎风之马。未尝停息。故名{{{tooltip(凡夫,凡夫不知)}}}也。所言真者即{{{tooltip(一真佛性,圣人不会)}}}也。今此道人与法相应。不落凡圣二途。亦乃简异二乘也。小乘之人厌离世间生死。乐求界外涅柈。学般若菩萨{{{tooltip(会万法皈于自己,一切事相究竟坚固)}}}。故云不除妄想不求真也。故修山主云。具足凡夫法。凡夫不知。具足圣人法。圣人不会。圣人若会即是凡夫。凡夫若知即是圣人。此两则语是一理二义。传云。若辨得。不妨于佛法中有个入处。若辨不得。莫道不疑。
+#+end_quote
+
+** 南明泉颂永嘉证道歌
+#+begin_quote
+
+　　不除妄想不求真。
+
+　　{{{tooltip(真妄都如镜里尘,随它去)}}}。打破虚空{{{tooltip(光影断,无事闲坐)}}}。此时方见{{{tooltip(本来人,君不见)}}}。
+#+end_quote
+
+** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+
+　　不除妄想不求真。
+
+　　{{{tooltip(妄本是道,何不早恁么道)}}}。不可言除。{{{tooltip(真性本空,心中难以释怀)}}}。岂容更觅。虽然如是。到此{{{tooltip(不求不除处,犹隔一重关)}}}。更进一步始得。
+#+end_quote
+
+** 竺原禅师注证道歌
+#+begin_quote
+    不除妄想不求真({{{tooltip(且信一半,一僧一俗)}}})。
+#+end_quote
+
+* 顿悟初心                                                 :虚云老和尚:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-19T11:27
+:EXPORT_TITLE: "顿悟初心"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-19T11:27:19-0500
+:EXPORT_AUTHOR: 虚云老和尚
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type "redirect" :redirect_to "https://mp.weixin.qq.com/s/w8R4SM1KaM69BU2mA_5rTA" :redirect_enabled "true" :image "images/feature1/markdown.png"
+:END:
+
+#+begin_description
+{{{macrolink("虚云老和尚：顿悟初心，即究竟圆极，寂灭真如","https://mp.weixin.qq.com/s/w8R4SM1KaM69BU2mA_5rTA")}}}
+#+end_description
+
+[[https://mp.weixin.qq.com/s/w8R4SM1KaM69BU2mA_5rTA][虚云老和尚：顿悟初心，即究竟圆极，寂灭真如]]
+
+下面的方式目前不工作。
+
+** 第一次使用转贴
+{{{tframe("虚云老和尚：顿悟初心，即究竟圆极，寂灭真如","https://mp.weixin.qq.com/s/w8R4SM1KaM69BU2mA_5rTA","ifabc")}}}
+
+** 美国网站
+
+{{{tframe("W3Schools","https://www.W3Schools.com","ifefg")}}}
+
+* 五明实性即佛性                                           :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-20T06:29
+:EXPORT_TITLE: "五明实性即佛性"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-20T06:29:59-0500
+:EXPORT_AUTHOR: "无机山人"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :key1 '(elem11 elem12)
+:END:
+
+#+begin_description
+打成两截，绿水青山枉自多。非要灭除无明，证取法身，三大阿僧祗劫也不解释怀。
+#+end_description
+
+** 舒州梵天琪和尚注证道歌
+#+begin_quote
+　　无明实性即佛性【翻手为云覆手为雨】。
+
+　　无明者无般若大智之明也【照破山河大地】。佛性者即究竟清净觉性也【是诸众生清净觉地】。从无始已来虚生浪死【只为有，所以来】。不能出离【洪湖水浪打浪】。皆因无明而流转也【水中漂蓬】。故知无明即烦恼根本也【觉性也烦恼根本】。为八万四千尘劳之果。作十二因缘之首。河沙烦恼由此而生。尘劫轮回以之不绝【不由自主】。非想定后还作狸身【好高骛远】。无明坑中犹为病行【无明虽为虚幻，但是习气力量至为庞大，非般若智慧不能照破，此生要力求】。古德云。疾如掣电。猛似狂风。瞥起尘劳速于瀑流之水。歘成五欲急过旋转之轮。是以结构四魔驱驰十使。皆无明之使然也【不敢轻视】。未了之人迷为实事。今此道人以般若智照了无明。即明明见佛性。故曰无明实性即佛性也【见贤思齐】。
+#+end_quote
+
+** 南明泉颂永嘉证道歌
+#+begin_quote
+　　无明实性即佛性。
+
+　　两处由来强立名【心若不强名】。四海晏清时雨足【妄从何处起】。不劳野老贺升平【不得无事生事】。
+#+end_quote
+
+** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+　　无明实性即佛性。
+
+　　真妄同源【源本无迹】。理事不二【欲返者迷】。无明之性【本来空】。即是佛性【不得断灭】。不须舍妄【何必劳神】。别求佛性【踏遍青山】。若离于妄【莫妄想】。即无佛性【绝计较】。然佛性。非有。非无。不有无。若言佛性定可即者。又何异土上加泥【打回原形】。
+#+end_quote
+
+** 竺原禅师注证道歌
+#+begin_quote
+无明实性即佛性(依稀越国【似曾相识，几分亲切】)。
+#+end_quote
+
+
+
+
+* 幻化空身即法身                                           :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-21T06:42
+:EXPORT_TITLE: "幻化空身即法身"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-21T06:42:41-0500
+:EXPORT_AUTHOR: "无机山人"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :key1 '(elem11 elem12)
+:END:
+
+#+begin_description
+无明与佛性不二，法身岂离幻身而别有。不离而别有，道出法身意味了也。阿谁的幻化空身是法身？若恁么斟酌，依前还不会。
+#+end_description
+
+** 舒州梵天琪和尚注证道歌
+#+begin_quote
+　　幻化空身即法身【昨日不定今日定】。
+
+　　既了无明即是佛性【若真如此】。当知幻身即是法身也【何虑不毕】。所言法身者。教有五分法身。一戒二定三慧四解脱五智见也【烧香供养】。传曰。智冥真境尽法为身故曰法身【言语之极则】。法以轨持为义。身以积聚为义。此之法身能轨生一切法故【何期自性能生万法】。能遍摄一切法故也。达法之人。了父母缘生虚幻之身即是金刚常住不坏之身【一切事法坚固不坏】。故曰幻化空身即法身也【楞严大定】。
+
+#+end_quote
+
+** 南明泉颂永嘉证道歌
+#+begin_quote
+　　幻化空身即法身。
+
+　　若了法身无内外【你的即是我的】。疥狗泥猪却共知【不在外】。三世如来曾不会【不在内】。
+
+#+end_quote
+
+** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+　　幻化空身即法身。
+
+　　既知无明即是佛性【有无俱遣】。身随智转【无明即明】。亦了现前。幻化色身。即是真空法身【了而无了】。然上云。不除妄。亦不求真。真妄皆不立【叫我从何下手】。又云。无明实性即佛性【修之不增】。幻化空身即法身【不修不减】。盖由真空湛然。然虽不可求。而常圆【奈何不现前，徒自奔山川】。虽现前。而了不可觅【大丈夫汉】。
+
+#+end_quote
+
+** 竺原禅师注证道歌
+#+begin_quote
+幻化空身即法身(仿佛扬州【若即若离，不取不舍】)。
+#+end_quote
+
+* 法身觉了了无一物。本源自性天真佛                         :永嘉证道歌:@禅宗:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-02-22T07:38
+:EXPORT_TITLE: "法身觉了无一物。本源自性天真佛"
+:EXPORT_HUGO_SECTION: zh/posts
+:EXPORT_DATE: 2022-02-22T07:38:25-0500
+:EXPORT_AUTHOR: "无机山人"
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :key1 '(elem11 elem12)
+:END:
+
+#+begin_description
+无一物，天真佛。能于此深信，自然绝学无为闲道人。
+#+end_description
+
+
+** 舒州梵天琪和尚注证道歌
+#+begin_quote
+　　法身觉了无一物【什么处去也】。本源自性天真佛【我本眼正】。
+
+　　以般若智照五蕴皆空【智照也空】。无有一物。无有边表【无智也无得】。无有名字。强名法身也【作甚么死急】。昔太原孚上座为座主时。因讲维摩经至法身义时。免道者在座下听【也有江南客】。乃问座主云。适来讲者是诸佛法身【强名法身也】。那个是座主法身【道什么】。座主云法身岂有二耶【讲得好道理】。道者云。如人说食终不济饥【画饼充饥】。欲了心源以悟为则【放归自己】。师云。某甲说法身义祇如此【闻过则喜】。却请道者为说【肯下人前】。道者云。且辍讲三五日。于空室内静坐体取法身【因师而瞎】。师一依所言。屏息诸缘端居静室【缘心歇处】。早晨忽闻鼓角声瞥然大悟【顿见无生】。云始知本来无物【却把故乡当他乡】。洎合一生空过【何不做个闲道人】。故云法身觉了无一物也。本源自性天真佛者。今若返本皈源不假修证【有人不肯，作止任灭】。始知本来成佛【信他方佛易】。行住坐卧触目遇缘。头头垂示法法齐彰。无非佛事【信本地佛难】。故法灯云。谁信天真佛【外求有相佛】。兴悲几万般【与汝不相干】。蓼花开古岸【嫌个什么】。白鹭立沙滩【独露其身】。露滴庭莎长。云收溪月寒。头头垂示处。子细好生观。
+
+#+end_quote
+
+** 南明泉颂永嘉证道歌
+#+begin_quote
+　　法身觉了无一物。
+
+　　莹若晴空绝点霞【霞非是霞】。因忆灵山当日事【花非是花】。𢹂筇春径踏残花【剑过多时】。
+
+　　本源自性天真佛。
+
+　　目若青莲齿似珂【一页一如来】。未识慈尊须急去【石火电光】。回头鹞子过新罗【汝方刻舟】。
+
+#+end_quote
+
+** 苏州灵岩妙空佛海和尚注证道歌
+#+begin_quote
+　　法身觉了无一物。本源自性天真佛。
+
+　　师恐人尚可了法身。故重拈云。法身觉了无一物也。又云。无一物者。非谓去物。盖于物物。当体即空故【所谓物者，即非是物】。即无一物。则触处皆真【是名为物】。无非是道【道什么】。故云。本源自性天真佛【见过于师】。
+
+#+end_quote
+
+** 竺原禅师注证道歌
+#+begin_quote
+法身觉了无一物(唤作一物即不中【拈放一边】)。本源自性天真佛(佛之一字吾不喜闻【如生冤家】)。
+#+end_quote
+
 
 
 
